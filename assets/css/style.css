@@ -3,6 +3,7 @@ body{
     overflow: auto;
     margin: 0px;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
 }
 header{
     background:white;
@@ -50,7 +51,8 @@ section{
     background: white;
     margin-top: 20px;
     overflow: auto;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
+
   
 }
 
@@ -85,3 +87,33 @@ footer{
  img{
      padding: 20px;
  }
+
+ .textinput{
+     padding: 20px;
+ }
+
+ .submit{
+     float: none;
+     position: relative;
+     padding: 20px;
+     margin:20px;
+     background: #4aaaa5;
+     color:white;   
+ }
+
+ .messageinput{
+     margin: 20px;
+     margin-right: 600px;
+ }
+
+ /*.picturebox{
+     position: absolute;
+ /* }   TRIED TO DO THE TEXT BOX OVER PICTURE  */
+
+ a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
